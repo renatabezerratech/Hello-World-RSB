@@ -1,0 +1,76 @@
+/*botão*/
+.botao{
+    font-family: fantasy;
+    font-size: large;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: darkorchid;
+    box-shadow: darkslateblue 0 5px 5px;
+    border-radius: 5px;
+}
+.botao:hover{
+    font-family: fantasy;
+    font-size: large;
+    cursor: pointer;
+    background-color: rgb(76, 23, 102);
+    box-shadow: darkslateblue 0 5px 5px;
+    border-radius: 5px;
+}
+.botao:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+/*formatações*/
+body{
+    background-color: #010128;
+    background: #77A1D3; 
+    background: -webkit-linear-gradient(to right, #E684AE, #79CBCA, #77A1D3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E684AE, #79CBCA, #77A1D3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    ;
+}
+p{
+    color: #010128;
+}
+p#link{
+    text-align: center;
+    font-size: 120%;
+
+}
+p.text{
+    font-size: 150%;
+    font-family: 'Orbitron', sans-serif   
+}
+
+h1{
+    color: rgb(175, 90, 192);
+    text-align: center;
+    font-size: 600%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -4%;
+    text-shadow: slateblue 0 5px 5px;
+}
+    
+a{
+    color: white;
+    text-align: center;
+    font-size: 115%;
+}
+/*Imagens*/
+img#www{
+    width: 4%;
+}
+img#paghtml{
+    width: 15%;
+    margin-left: 80%;
+    margin-top: -14%;
+    animation: zoom 25s;
+}
+@keyframes zoom{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
